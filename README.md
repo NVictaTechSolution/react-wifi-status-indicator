@@ -45,6 +45,8 @@ const Example = () =>{
   <WifiStatus status={WifiStatusType.Fair}>
   </div>
 }
+
+export default Example;
 ```
 
 ## License
