@@ -26,7 +26,7 @@ Install **react-wifi-status-indicator** with **yarn**
 | Parameter         | Type             | Description                                                                |
 | :---------------- | :--------------- | :------------------------------------------------------------------------- |
 | `status`          | `WifiStatusType` | "Excellent", "Good", "Fair", "Poor",  "Unavailable", "Error", "Searching"  |
-| `color`           | `string`         | Set to color for wifi status level                                         |
+| `color`           | `string`         | Set to color for wifi status levels                                         |
 | `errorColor`      | `string`         | Set to color for wifi status when error occurs                             |
 | `offlineColor`    | `string`         | Set to color for wifi status when offline                                  |
 
