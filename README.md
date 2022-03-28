@@ -42,8 +42,7 @@ Install **react-wifi-status-indicator** with **yarn**
 import {WifiStatus, WifiStatusType} from 'react-wifi-status-indicator';
 
 const WifiStatusExample = () =>{
-  return 
-  <WifiStatus status={WifiStatusType.Fair} width={100}>
+  return <WifiStatus status={WifiStatusType.Fair} width={100}>
 }
 
 export default WifiStatusExample;
