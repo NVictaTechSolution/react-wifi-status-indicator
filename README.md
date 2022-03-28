@@ -10,7 +10,7 @@ A simple wifi status indicator for react applications
 
 ##Demo
 
-[!Demo / Storybook](https://nvictatechsolution.github.io/react-wifi-status-indicator)
+[Demo / Storybook](https://nvictatechsolution.github.io/react-wifi-status-indicator)
 
 ## Installation
 
