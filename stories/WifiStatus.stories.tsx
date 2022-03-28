@@ -30,4 +30,5 @@ export const Default = Template.bind({});
 Default.args = {
   status: WifiStatusType.Excellent,
   color: '#148742',
+  width: 500,
 };

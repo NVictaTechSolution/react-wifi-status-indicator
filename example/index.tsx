@@ -6,7 +6,7 @@ import { WifiStatus, WifiStatusType } from '../.';
 const App = () => {
   return (
     <div>
-      <WifiStatus status={WifiStatusType.Searching} />
+      <WifiStatus status={WifiStatusType.Searching} width={400} />
     </div>
   );
 };

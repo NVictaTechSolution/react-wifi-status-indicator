@@ -16,6 +16,7 @@ export interface IWifiStatusProps {
   color?: string;
   errorColor?: string;
   offlineColor?: string;
+  width?: string | number;
 }
 
 export const WifiStatus: FC<IWifiStatusProps> = ({
@@ -23,6 +24,7 @@ export const WifiStatus: FC<IWifiStatusProps> = ({
   color = '#148742',
   errorColor = '#D32F2F',
   offlineColor = '#CFCFCF',
+  width = '100%',
 }) => {
   const isLevel1 = status === WifiStatusType.Excellent;
   const isLevel2 = status === WifiStatusType.Good || isLevel1;
@@ -50,8 +52,8 @@ export const WifiStatus: FC<IWifiStatusProps> = ({
   `;
 
   const SVG = styled.svg`
-    width: 475px;
-    height: 350px;
+    width: ${typeof width === 'number' ? `${width}px` : width};
+    height: 100%;
   `;
 
   const Level1Path = styled.path`

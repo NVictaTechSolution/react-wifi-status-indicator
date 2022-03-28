@@ -30,9 +30,10 @@ Install **react-wifi-status-indicator** with **yarn**
 | Parameter         | Type             | Description                                                                |
 | :---------------- | :--------------- | :------------------------------------------------------------------------- |
 | `status`          | `WifiStatusType` | "Excellent", "Good", "Fair", "Poor",  "Unavailable", "Error", "Searching"  |
-| `color`           | `string`         | Set to color for wifi status levels                                         |
+| `color`           | `string`         | Set to color for wifi status levels                                        |
 | `errorColor`      | `string`         | Set to color for wifi status when error occurs                             |
 | `offlineColor`    | `string`         | Set to color for wifi status when offline                                  |
+| `width`           | `string / number`| Set to width for wifi status icon, By default takes the parent width       |
 
 ## Usage/Examples
 
@@ -40,13 +41,12 @@ Install **react-wifi-status-indicator** with **yarn**
 // ES6 or TypeScript:
 import {WifiStatus, WifiStatusType} from 'react-wifi-status-indicator';
 
-const Example = () =>{
-  return <div>
-  <WifiStatus status={WifiStatusType.Fair}>
-  </div>
+const WifiStatusExample = () =>{
+  return 
+  <WifiStatus status={WifiStatusType.Fair} width={100}>
 }
 
-export default Example;
+export default WifiStatusExample;
 ```
 
 ## License
