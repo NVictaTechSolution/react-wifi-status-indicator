@@ -34,7 +34,7 @@ Install **react-wifi-status-indicator** with **yarn**
 
 ```javascript
 // ES6 or TypeScript:
-import {WifiStatus} from 'react-wifi-status-indicator';
+import {WifiStatus, WifiStatusType} from 'react-wifi-status-indicator';
 
 const Example = () =>{
   return <div>
