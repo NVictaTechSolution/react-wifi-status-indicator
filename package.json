@@ -39,6 +39,10 @@
   },
   "name": "react-wifi-status-indicator",
   "author": "Rahul Retnan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahulretnan/netlink-cloudflare-ddns.git"
+  },
   "module": "dist/react-wifi-status-indicator.esm.js",
   "size-limit": [
     {

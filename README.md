@@ -1,16 +1,16 @@
 # React Wifi Status Indicator
 
-[![MIT License](https://img.shields.io/github/license/NVictaTechSolution/react-wifi-status-indicator)](https://raw.githubusercontent.com/NVictaTechSolution/react-wifi-status-indicator/main/LICENSE)
+[![MIT License](https://img.shields.io/github/license/rahulretnan/react-wifi-status-indicator)](https://raw.githubusercontent.com/rahulretnan/react-wifi-status-indicator/main/LICENSE)
 
-![Tag](https://img.shields.io/github/v/tag/NVictaTechSolution/react-wifi-status-indicator)
+![Tag](https://img.shields.io/github/v/tag/rahulretnan/react-wifi-status-indicator)
 
-![Open Issues](https://img.shields.io/github/issues/NVictaTechSolution/react-wifi-status-indicator)
+![Open Issues](https://img.shields.io/github/issues/rahulretnan/react-wifi-status-indicator)
 
 A simple wifi status indicator for react applications
 
 ## Demo
 
-[Demo / Storybook](https://nvictatechsolution.github.io/react-wifi-status-indicator)
+[Demo / Storybook](https://rahulretnan.github.io/react-wifi-status-indicator)
 
 ## Installation
 
@@ -50,4 +50,4 @@ export default WifiStatusExample;
 
 ## License
 
-[MIT](https://raw.githubusercontent.com/NVictaTechSolution/react-wifi-status-indicator/main/LICENSE)
+[MIT](https://raw.githubusercontent.com/rahulretnan/react-wifi-status-indicator/main/LICENSE)
