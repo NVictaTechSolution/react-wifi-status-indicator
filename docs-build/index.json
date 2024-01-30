@@ -1,0 +1,1 @@
+{"v":4,"entries":{"welcome--docs":{"id":"welcome--docs","title":"Welcome","name":"Docs","importPath":"./stories/WifiStatus.stories.tsx","type":"docs","tags":["docs","autodocs"],"storiesImports":[]},"welcome--default":{"type":"story","id":"welcome--default","name":"Default","title":"Welcome","importPath":"./stories/WifiStatus.stories.tsx","tags":["story"]}}}
